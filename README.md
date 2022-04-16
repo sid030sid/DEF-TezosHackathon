@@ -20,21 +20,26 @@ Downside of this DApp
 
 - lacks scaling: not ready for mass usage
 
+## Requirements For Initial Setup
+- Install [NodeJS](https://nodejs.org/en/), should work with any node version below 16.5.0
+- Install truffle@tezos (e. g. npm install -g truffle@tezos)
+
+
+
 
 ## text below needsd to be changed
 
 ## Technology Stack & Tools
 
-- Solidity (Writing Smart Contract)
-- Javascript (React & Testing)
+- Ligo (Writing Smart Contract)
+- Javascript (Node.js server, React.js client, Testing)
+- [MongoDb](https://www.mongodb.com/) (Off-chain data storage)
 - [Ethers](https://docs.ethers.io/v5/) (Blockchain Interaction)
-- [Hardhat](https://hardhat.org/) (Development Framework)
+- [Truffle](https://hardhat.org/) (Development Framework)
 - [Ipfs](https://ipfs.io/) (Metadata storage)
 - [React routers](https://v5.reactrouter.com/) (Navigational components)
 
-## Requirements For Initial Setup
-- Install [NodeJS](https://nodejs.org/en/), should work with any node version below 16.5.0
-- Install truffle@tezos (e. g. npm install -g truffle@tezos)
+
 
 ## Setting Up
 ### 1. Clone/Download the Repository
