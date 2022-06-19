@@ -23,6 +23,15 @@ Downside of DEF DApp:
 ## Requirements For Initial Setup
 - Install [NodeJS](https://nodejs.org/en/)
 - Install truffle@tezos (e. g. npm install -g truffle@tezos)
+- Define storage like: 
+    company := [issuer = ("tz1KqTpEZ7Yob7QbPE4Hy4Wo8fHG8LhKxZSx" : address);
+    total_eqt = 0n;
+    released_eqt = 0n;
+    price = 0n;
+    sold_eqt = 0n;
+    holders : holders = Big_map.empty;
+    balanceOfHolder : balanceOfHolder = Big_map.empty];
+(how to define the storage for ligo web IDE: https://github.com/giraffekey/tezos-harberger-nft)
 
 ## Technology Stack & Tools
 - PacalLIGO (Writing Smart Contract)
