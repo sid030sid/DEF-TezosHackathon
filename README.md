@@ -31,7 +31,7 @@ Downside of DEF DApp:
     sold_eqt = 0n;
     holders : holders = Big_map.empty;
     balanceOfHolder : balanceOfHolder = Big_map.empty];
-(how to define the storage for ligo web IDE: https://github.com/giraffekey/tezos-harberger-nft)
+(how to define the storage for ligolang web IDE: https://github.com/giraffekey/tezos-harberger-nft [examplary storage: https://tacode.dev/courses/dev-starter/chapters/9de56ed8-b2bb-48fa-a013-59eb5100308d])
 
 ## Technology Stack & Tools
 - PacalLIGO (Writing Smart Contract)
